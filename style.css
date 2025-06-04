@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(to right, #434343, #000000);
+    /*  background-color: #222222; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #444;;
+    max-width: 400px;
+    margin: 160px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo_img{
+    display: flex; 
+    width: 150px;
+    height: 150px;
+    border-radius: 150px; 
+    object-fit: cover;
+    margin: auto;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.Text1{
+    margin: auto;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Text2{
+    margin: auto;
+    text-align: center;
+    font-size: 19.2px;
+    color: #C5F82A;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Text3{
+    margin: auto;
+    text-align: center;
+    font-size: 19.2px;
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Button_Set{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.Button{
+    background-color: #05000033;
+    margin: 5px 40px;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.Button:hover {
+    /*background-color: #C5F82A;*/
+    color: rgb(255, 251, 251);
+    cursor: pointer;
+    background: linear-gradient(to right, #434343, #000000);
+}
